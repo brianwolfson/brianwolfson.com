@@ -13,12 +13,11 @@
     <meta name="language" content="English">
     <meta name="author" content="Brian Wolfson">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link href="assets/style.css" rel="stylesheet">
 
@@ -34,7 +33,9 @@
 
     <nav class="navbar navbar-expand mx-auto">
       <div class="navbar-container container-fluid">
-        <a class="navbar-brand" href="#">Brian Wolfson</a>
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/fullcolorlogo.svg" height="40" alt="Brian Wolfson Logo">
+        </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -78,40 +79,46 @@
         <div class="row d-flex ">
           <div class="col-sm-4 d-flex flex-column justify-content-around service-section">
               <div class="service-block">
-                <div class="d-flex align-items-center">
-                  <div class="flex-shrink-0">
-                    <div class="service-icon">
-                      <i class="bi bi-vector-pen"></i>
+                <div data-aos="fade-right">
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <div class="service-icon">
+                        <i class="bi bi-vector-pen"></i>
+                      </div>
                     </div>
-                  </div>
-                  <div class="flex-grow-1 service-block-text">
-                    <h1>Graphic Design</h1>
+                    <div class="flex-grow-1 service-block-text">
+                      <h1>Graphic Design</h1>
+                    </div>
                   </div>
                 </div>
               </div>
 
               <div class="service-block">
-                <div class="d-flex align-items-center">
-                  <div class="flex-shrink-0">
-                    <div class="service-icon">
-                      <i class="bi bi-postcard"></i>
+                <div data-aos="fade-right">
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <div class="service-icon">
+                        <i class="bi bi-postcard"></i>
+                      </div>
                     </div>
-                  </div>
-                  <div class="flex-grow-1 service-block-text">
-                    <h1>Branding</h1>
+                    <div class="flex-grow-1 service-block-text">
+                      <h1>Branding</h1>
+                    </div>
                   </div>
                 </div>
               </div>
 
               <div class="service-block">
-                <div class="d-flex align-items-center">
-                  <div class="flex-shrink-0">
-                    <div class="service-icon">
-                      <i class="bi bi-map"></i>
+                <div data-aos="fade-right">
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <div class="service-icon">
+                        <i class="bi bi-map"></i>
+                      </div>
                     </div>
-                  </div>
-                  <div class="flex-grow-1 service-block-text">
-                    <h1>Digital Strategy</h1>
+                    <div class="flex-grow-1 service-block-text">
+                      <h1>Digital Strategy</h1>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -119,8 +126,10 @@
 
           <div class="col-sm-8">
             <div class="bio-section">
-              <h1>A Little Bit About Me</h1>
-              <p>Experienced in both politics and design, I can bring a unique skill set, a breadth of knowledge, and a passion for design to your campaign or cause. I’ve previously worked on Capitol Hill, at a public affairs firm, on a successful Democratic state house campaign, and in the communications office of the Broward County Commission. Currently, I work as the in-house designer at <a target="_blank" class="hero-link" href="https://www.jstreet.org">J Street</a>, a progressive non-profit focused on a peaceful resolution to the Israeli-Palestinian conflict.</p>
+              <div data-aos="fade-up">
+                <h1>A Little Bit About Me</h1>
+                <p>Experienced in both politics and design, I can bring a unique skill set, a breadth of knowledge, and a passion for design to your campaign or cause. I’ve previously worked on Capitol Hill, at a public affairs firm, on a successful Democratic state house campaign, and in the communications office of the Broward County Commission. Currently, I work as the in-house designer at <a target="_blank" class="hero-link" href="https://www.jstreet.org">J Street</a>, a progressive non-profit focused on a peaceful resolution to the Israeli-Palestinian conflict.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -131,34 +140,35 @@
       <div class="work-container container-fluid">
         <div class="row">
           <div class="col-sm-4">
-            <div class="work-block"><a href="https://www.behance.net/gallery/135945101/Grayson-Phillips-for-Congress" target="_blank">
-              <img class="img-fluid" alt="Grayson Phillips for Congress" src="assets/img/graysonphillips.png">
+            <div data-aos="fade-in" data-aos-duration="1000" class="work-block"><a href="#" target="_blank">
+              <img class="img-fluid" alt="" src="https://placekitten.com/650/650">
               <div class="work-text">
-                <h1>Grayson Phillips for Congress</h1>
-                <p>Portfolio Project &bull; Branding</p>
+                <h1>Project Title</h1>
+                <p>Place &bull; Type</p>
               </div>
             </a></div>
           </div>
 
           <div class="col-sm-4">
-            <div class="work-block"><a href="#" target="_blank">
-              <img class="img-fluid" alt="#" src="https://placekitten.com/500/500">
+            <div data-aos="fade-in" data-aos-duration="1000" class="work-block"><a href="#" target="_blank">
+              <img class="img-fluid" alt="" src="https://placekitten.com/650/650">
               <div class="work-text">
-                <h1>Lorem ipsum dolor sit</h1>
-                <p>Lorem ipsum dolor sit</p>
+                <h1>Project Title</h1>
+                <p>Place &bull; Type</p>
               </div>
             </a></div>
           </div>
 
           <div class="col-sm-4">
-            <div class="work-block"><a href="#" target="_blank">
-              <img class="img-fluid" alt="#" src="https://placekitten.com/500/500">
+            <div data-aos="fade-in" data-aos-duration="1000" class="work-block"><a href="#" target="_blank">
+              <img class="img-fluid" alt="" src="https://placekitten.com/650/650">
               <div class="work-text">
-                <h1>Lorem ipsum dolor sit</h1>
-                <p>Lorem ipsum dolor sit</p>
+                <h1>Project Title</h1>
+                <p>Place &bull; Type</p>
               </div>
             </a></div>
           </div>
+
         </div>
       </div>
     </div>
@@ -166,11 +176,11 @@
     <div class="testimonial-wrapper" id="test">
     	<div class="testimonial-container container-fluid">
     		<div class="row testimonial-section">
-    			<div class="col-sm-5">
+    			<div data-aos="fade-right" class="col-sm-5">
     				<img class="img-fluid" alt="#" src="https://placekitten.com/650/650">
     			</div>
     			<div class="col-sm-7">
-    				<div class="quote-block">
+    				<div data-aos="fade-up" class="quote-block">
     					<div class="quote-wrapper">
     						<h1>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."</h1>
     						<p>- Quote Author</p>
@@ -185,7 +195,7 @@
       <div class="contact-container container-fluid">
         <div class="row">
           <div class="col-sm-6">
-            <div class="email-section">
+            <div data-aos="fade-in" data-aos-duration="1000" class="email-section">
               <h1>Let's Work Together</h1>
               <p>Do you have a project or product mind? Are you a candidate or cause looking for a digital brand? Let's work together! Send me an email at <a href="mailto:brian@brianwolfson.com" target="_blank">brian@brianwolfson.com</a></p>
 
@@ -194,7 +204,7 @@
           </div>
 
           <div class="col-sm-6">
-            <div class="social-section">
+            <div data-aos="fade-in" data-aos-duration="1000" class="social-section">
               <h1>Let's Connect</h1>
               <div class="social-buttons">
                 <div class="social-link">
@@ -203,10 +213,6 @@
 
                 <div class="social-link">
                   <a target="_blank" href="https://www.linkedin.com/in/wolfsonb/"><i class="bi bi-linkedin"></i></a>
-                </div>
-
-                <div class="social-link">
-                  <a target="_blank" href="https://dribbble.com/brianwolfson"><i class="bi bi-dribbble"></i></a>
                 </div>
 
                 <div class="social-link">
@@ -222,5 +228,9 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
