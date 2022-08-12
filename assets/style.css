@@ -439,7 +439,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .work-description h2 {
-  font-size: 2.25rem;
+  font-size: 2rem;
   line-height: 1.4;
 }
 
@@ -689,6 +689,77 @@ h1, h2, h3, h4, h5, h6 {
   .social-link i:hover {
     box-shadow: -5px -5px 30px 5px #acdee7, 5px 5px 30px 5px #ff968a;
   }
+}
+
+/* Resume Section */
+
+@media (min-width: 996px) {
+  .resume-wrapper {
+    margin-top: 5rem;
+  }
+
+  .resume-wrapper h1 {
+    font-size: 48px;
+    padding-bottom: 1rem;
+  }
+
+  .resume-wrapper h2 {
+    font-size: 40px;
+  }
+
+  .resume-wrapper p {
+    font-size: 1.75rem;
+  }
+
+  .bio-container .col-sm-9 {
+    padding-left: 5rem;
+  }
+
+  .experience-container {
+    padding: 5rem 0;
+  }
+
+  .exp-row {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .exp-row .col-sm-2 {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .exp-row h3 {
+    font-size: 36px;
+  }
+
+  .exp-row {
+    font-size: 18px;
+  }
+}
+
+.exp-row ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.exp-row li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.exp-row li::before {
+  content: '';
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  background-image: url('img/bullet.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* CONTAINER RESIZE */
