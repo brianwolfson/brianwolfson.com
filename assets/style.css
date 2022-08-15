@@ -724,17 +724,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 2rem;
   }
 
-  .exp-row .col-sm-2 {
-    align-items: center;
-    justify-content: center;
-  }
-
   .exp-row h3 {
     font-size: 36px;
-  }
-
-  .exp-row {
-    font-size: 18px;
   }
 }
 
